@@ -8,6 +8,6 @@ const second = file.readFileSync("./content/second.txt", "utf8");
 //console.log(second);
 
 file.writeFileSync("./content/result-sync.txt", `The result is : ${first} ++ ${second}`);
-console.log("First task done!");
-console.log("Start next task!");
+console.log("First task is over!");
+console.log("Starting the next task!");
 

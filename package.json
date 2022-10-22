@@ -4,15 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "node http-server.js"
+    "start": "nodemon app.js"
   },
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "bootstrap": "^5.2.2",
-    "lodash": "^4.17.21"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.20"
-  }
+  "license": "ISC"
 }
